@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "expandedhitboxes",
+  "version": "1.0.0",
+  "name": "Expanded Hitboxes",
+  "description": "3x hitbox for attacks | Anticheat bypass | 3 block limit",
+  "authors": ["SWILL"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.swill.hitbox.ExpandedHitboxesMod"]
+  },
+  "mixins": ["mixin.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.4"
+  }
+}
